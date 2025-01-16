@@ -1,8 +1,17 @@
 .conteiner {
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 100%;
-  height: 100%;
+  height: auto;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
 }
 
 .desc {
@@ -11,12 +20,12 @@
   align-items: center;
   width: 100%;
   height: 90vh;
-  background-color: blueviolet;
 }
 
 .subtitle {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
+  margin-bottom: 20px;
 }
 
 .textDesc {
@@ -39,7 +48,6 @@
   align-items: center;
   width: 100%;
   height: 20vh;
-  background-color: blanchedalmond;
 }
 
 .areaProjetos {
@@ -114,18 +122,24 @@
   letter-spacing: 1px;
   transition: 1000ms;
 }
-
-.Skills {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-  height: 20vh;
-  background-color: blanchedalmond;
-}
-.Skills h3 {
-  font-family: Arial, Helvetica, sans-serif;
+.textProjetos {
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 30px;
+  font-style: italic;
+}
+
+.textSkills{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textSkills h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style: italic;
+    
 }
 
 .areaSkills {
@@ -133,7 +147,6 @@
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  height: 50vh;
 }
 
 .areaSkills div {
@@ -153,7 +166,7 @@
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  height: 50vh;
+  height: 10vh;
 }
 
 .areaFront img {
@@ -174,16 +187,26 @@
   width: 100%;
   height: 50vh;
 }
+.areaMobile h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+.areaFront h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
 
 .contato{
   display: flex;
   width: 100%;
-  height: 30vh;
+  height: auto;
   background-color: blanchedalmond;
+  margin-top: 20px;
 }
 .contato h2{
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 30px;
+  font-size: 25px;
 
 }
 
@@ -205,5 +228,83 @@
   color: black;
   font-weight: 600;
   letter-spacing: 1px;
-  transition: 1000ms;
+  opacity: 0.8;
+}
+
+.habilidades{
+  display: flex;
+  width: 100%;
+  height: 30vh;
+  background-color: blanchedalmond;
+}
+
+@media screen and (max-width: 1200px) {
+    .conteiner{
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+    }
+    .desc{
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      padding: 15px;
+    }
+
+    .subtitle{
+      font-size: 18px;
+      margin-top: 20px;
+    }
+    .textDesc{
+      font-size: 14px;
+      letter-spacing: 0px;
+      opacity: 0.9;
+      
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .areaImg img{
+      width: 130px;
+      height: 130px;
+      margin-top: 30px;
+    }
+    .projetos{
+      flex-direction: column;
+    }
+    .areaProjetos{
+      width: 100%;
+      height: auto;
+      flex-direction: column;
+    }
+
+    .areaProjetos div{
+      width: 50%;
+      height: auto;
+      margin: 10px;
+    }
+
+    
+    
+    .areaSkills{
+        width: 100%;
+        height: auto;
+      flex-direction: column;
+      margin-top: 20px;
+    }
+    
+    .areaFront{
+      flex-direction: column;
+      width: 200px;
+      height: auto;
+    }
+    .areaMobile{
+      flex-direction: column;
+      width: 30%;
+      height: auto;
+      margin: 10px;
+    }
+    .contato{
+      width: 100%;
+      flex-direction: column;
+      height: auto;
+    }
 }
