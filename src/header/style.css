@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: blanchedalmond;
+    box-shadow: 1px 1px 9px 1px;
 }
 
 .header h2{
