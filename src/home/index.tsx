@@ -36,7 +36,7 @@ export default function Home() {
         </div>
 
         <div className="areaProjetos">
-          <div>
+          <div className="idProj">
             <img src="https://github.com/AlisonNunesAraujo/walletApp/blob/main/assets/app.jpg?raw=true" />
             <h3>Aplicativo Controle de Gastos</h3>
             <p>
@@ -46,7 +46,7 @@ export default function Home() {
             <a href="https://github.com/AlisonNunesAraujo/walletApp">Acessar</a>
           </div>
 
-          <div>
+          <div className="idProj">
             <img src="https://github.com/AlisonNunesAraujo/walletApp/blob/main/assets/app.jpg?raw=true" />
             <h3>Site Controle de gastos</h3>
             <p>
@@ -56,7 +56,7 @@ export default function Home() {
             </p>
             <a href="https://github.com/AlisonNunesAraujo/walletWeb">Acessar</a>
           </div>
-          <div>
+          <div className="idProj" >
             <img src="https://github.com/AlisonNunesAraujo/appcompras/blob/main/assets/app.jpg?raw=true" />
             <h3>Aplicatovo lista de compras</h3>
             <p>
