@@ -58,7 +58,7 @@ export default function Home() {
           </div>
           <div className="idProj" >
             <img src="https://github.com/AlisonNunesAraujo/appcompras/blob/main/assets/app.jpg?raw=true" />
-            <h3>Aplicatovo lista de compras</h3>
+            <h3>Aplicativo lista de compras</h3>
             <p>
               Esse Aplicativo bem simples pode auxiliar na hora de fazer
               compras, podendo armazenar sua lista de compras

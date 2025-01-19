@@ -23,15 +23,16 @@
 }
 
 .subtitle {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 30px;
   margin-bottom: 20px;
+  opacity: 0.9;
 }
 
 .textDesc {
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 500;
   opacity: 0.9;
 }
@@ -204,7 +205,7 @@
   width: 100%;
   height: auto;
   box-shadow: 0px 0px 3px 0px;
-  background-color: #ccc;
+  background-color: white;
   margin-top: 20px;
   
 }
@@ -289,7 +290,7 @@
     flex-direction: column;
     margin-top: 30px;
     margin: 10px;
-    gap: 13px;
+    gap: 10px;
   }
 
   .areaSkills div {
