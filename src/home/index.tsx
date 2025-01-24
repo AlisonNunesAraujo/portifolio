@@ -47,14 +47,14 @@ export default function Home() {
           </div>
 
           <div className="idProj">
-            <img src="https://carteiraweb.vercel.app/" />
+            <img src="https://github.com/AlisonNunesAraujo/walletApp/blob/main/assets/app.jpg?raw=true" />
             <h3>Site Controle de gastos</h3>
             <p>
               Esse site tem como objetivo ajudar as pessoas a gerenciar suas
               financas pessoais, registrando seus gastos e receitas , na versão
               web
             </p>
-            <a href="https://github.com/AlisonNunesAraujo/walletWeb">Acessar</a>
+            <a href="https://carteiraweb.vercel.app/">Acessar</a>
           </div>
           <div className="idProj" >
             <img src="https://github.com/AlisonNunesAraujo/appcompras/blob/main/assets/app.jpg?raw=true" />
