@@ -13,12 +13,12 @@ export default function Home() {
             <h3 className="textDesc">
               Eu sou desenvolvedor Mobile/front-end, <br />
               Apaixonado por tecnologia e programação,
-              <br /> atuo como desenvolvedor<br /> mobile e front-end júnior.<br /> Gosto de
+              <br /> atuo como desenvolvedor<br /> mobile e front-end júnior Gosto de
               construir soluções inovadoras<br /> que facilitam a vida das
               <br />
               pessoas. Tenho experiência em desenvolvimento<br /> de aplicativos para
-              Android e Ios,<br /> e criação de sistemas web. Sou Apaixonado,<br /> por
-              tecnologia e busco constantemente<br /> me aprimorar nessa área.
+              Android e Ios, e criaçã<br /> de sistemas web.<br /> Sou Apaixonado, por
+              tecnologia<br /> e busco constantemente me aprimorar nessa área.
             </h3>
           </div>
 
