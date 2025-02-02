@@ -4,7 +4,7 @@
   align-items: center;
   width: 100%;
   height: auto;
-  background-color: #10041c;
+  background-color: rgb(56, 56, 55);
 }
 
 .item {
@@ -19,6 +19,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-direction: column;
   width: 100%;
   height: 90vh;
 }
@@ -32,10 +33,9 @@
 }
 
 .textDesc {
-  width: 60vh;
-  margin: 0;
+  width: 90vh;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 500;
   opacity: 0.9;
   color: whitesmoke;
@@ -125,7 +125,7 @@
   margin: auto;
   cursor: pointer;
   text-decoration: none;
-  color: blue;
+  color: white;
   font-weight: 600;
   letter-spacing: 1px;
   transition: 1000ms;
@@ -198,12 +198,14 @@
 }
 .areaMobile h3 {
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 20px;
 }
 
 .areaFront h3 {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 20px;
+}
+.areaFront h3 {
+  font-size: 15px;
 }
 
 .contato {
@@ -225,7 +227,7 @@
   align-items: center;
   flex-direction: column;
   width: 100%;
-  background-color: #10041c;
+  background-color: rgb(56, 56, 55);
 }
 
 .areaContato a {
@@ -245,35 +247,41 @@
 
 @media screen and (max-width: 1000px) {
   .conteiner {
+    background-color: rgb(56, 56, 55);
     flex-direction: column;
     width: 100%;
-    align-items: center;
+    justify-items: center;
   }
   .desc {
     flex-direction: column;
     width: 100%;
-    height: 100%;
-  }
-  .areaDesc {
-    width: 80%; /* Shorthand para margin-left e margin-right */
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 16px; /* Ajuste conforme necessário */
+    height: 60%;
     word-wrap: break-word;
-    overflow-wrap: break-word;
+  }
+
+  .desc div {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .desc div h3 {
+    text-align: center;
+    padding: 10px;
   }
 
   .subtitle {
     font-size: 18px;
     margin-top: 20px;
+    color: white;
   }
   .textDesc {
     font-size: 14px;
     opacity: 0.9;
-
-    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
   }
   .areaImg img {
     width: 150px;
@@ -297,6 +305,7 @@
     width: 50%;
     height: auto;
     margin: 10px;
+    background-color: #230b3700;
   }
 
   .areaSkills {
@@ -311,15 +320,22 @@
   .areaSkills div {
     width: 50%;
     height: 30vh;
+    background-color: #230b3700;
   }
 
   .textSkills h3 {
     margin-top: 40px;
+    color: white;
+  }
+
+  .areaContato {
+    background-color: rgb(56, 56, 55);
   }
 
   .contato {
     width: 100%;
     flex-direction: column;
     height: auto;
+    background-color: rgb(56, 56, 55);
   }
 }

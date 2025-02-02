@@ -8,18 +8,20 @@ export default function Home() {
 
       <div className="item">
         <div className="desc">
-          <div className="areaDesc">
-            <h2 className="subtitle">Olá, meu nome é Alison Araújo</h2>
+          <h2 className="subtitle">Olá, meu nome é Alison Araújo</h2>
+          <div
+          >
             <h3 className="textDesc">
-              Eu sou desenvolvedor Mobile/front-end, <br />
+              Eu sou desenvolvedor Mobile/front-end,
               Apaixonado por tecnologia e programação,
-              <br /> atuo como desenvolvedor<br /> mobile e front-end júnior Gosto de
-              construir soluções inovadoras<br /> que facilitam a vida das
-              <br />
-              pessoas. Tenho experiência em desenvolvimento<br /> de aplicativos para
-              Android e Ios, e criaçã<br /> de sistemas web.<br /> Sou Apaixonado, por
-              tecnologia<br /> e busco constantemente me aprimorar nessa área.
+              atuo como desenvolvedor mobile e front-end júnior Gosto de
+              construir soluções inovadoras que facilitam a vida das
+
+              pessoas. Tenho experiência em desenvolvimento de aplicativos para
+              Android e Ios, e criaçã de sistemas web. Sou Apaixonado, por
+              tecnologia e busco constantemente me aprimorar nessa área.
             </h3>
+
           </div>
 
           <div className="areaImg">
@@ -71,21 +73,21 @@ export default function Home() {
 
         <div className="areaSkills">
           <div className="areaFront">
-            <h3>Front-End</h3>
+            <h2>Front-End</h2>
             <img src="https://camo.githubusercontent.com/426c1121b29abc64a6b1af1e3aa3091abb38e39c87054720b765af1425c74e7f/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f6a6176617363726970742f6a6176617363726970742d6f726967696e616c2e737667" />{" "}
-            <p>JavaScript</p>
+            <h3>JavaScript</h3>
             <img src="https://camo.githubusercontent.com/a07203131922e3fa0d6d0cd787edb5597771b30d712574bbc70a3c7aaa0161ea/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f747970657363726970742f747970657363726970742d6f726967696e616c2e737667" />{" "}
-            <p>TypeScript</p>
+            <h3>TypeScript</h3>
             <img src="https://camo.githubusercontent.com/34b891c76d258e4b0ee593443e5cbc2506cdbb7d3cd6bc0e4beffa87a9c1611b/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f72656163742f72656163742d6f726967696e616c2e737667" />{" "}
-            <p>ReactJs</p>
+            <h3>ReactJs</h3>
           </div>
 
           <div className="areaMobile">
-            <h3>Mobile</h3>
+            <h2>Mobile</h2>
             <img src="https://camo.githubusercontent.com/34b891c76d258e4b0ee593443e5cbc2506cdbb7d3cd6bc0e4beffa87a9c1611b/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f72656163742f72656163742d6f726967696e616c2e737667" />{" "}
-            <p>React Native</p>
+            <h3>React Native</h3>
             <img src="https://camo.githubusercontent.com/a07203131922e3fa0d6d0cd787edb5597771b30d712574bbc70a3c7aaa0161ea/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f747970657363726970742f747970657363726970742d6f726967696e616c2e737667" />
-            <p>TypeScript</p>
+            <h3>TypeScript</h3>
           </div>
         </div>
 
