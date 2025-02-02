@@ -243,7 +243,7 @@
   color: white;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
   .conteiner {
     flex-direction: column;
     width: 100%;
@@ -253,7 +253,14 @@
     flex-direction: column;
     width: 100%;
     height: 100%;
-    padding: 15px;
+  }
+  .areaDesc {
+    width: 90%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .subtitle {
