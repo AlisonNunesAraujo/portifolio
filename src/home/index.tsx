@@ -25,7 +25,7 @@ export default function Home() {
           </div>
 
           <div className="areaImg">
-            <img src="myfoto.jpeg" alt="img" />
+            <img src="https://avatars.githubusercontent.com/u/166415022?v=4" alt="img" />
           </div>
         </div>
 
