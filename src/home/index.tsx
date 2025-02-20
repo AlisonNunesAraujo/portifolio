@@ -18,7 +18,7 @@ export default function Home() {
               construir soluções inovadoras que facilitam a vida das
 
               pessoas. Tenho experiência em desenvolvimento de aplicativos para
-              Android e Ios, e criaçã de sistemas web. Sou Apaixonado, por
+              Android e Ios, e criação de sistemas web. Sou Apaixonado, por
               tecnologia e busco constantemente me aprimorar nessa área.
             </h3>
 
