@@ -314,7 +314,7 @@
     width: 50%;
     height: auto;
     margin: 10px;
-    background-color: #230b3700;
+    background-color: rgb(32, 32, 31);
   }
 
   .areaSkills {
@@ -330,7 +330,7 @@
   .areaSkills div {
     width: 50%;
     height: 30vh;
-    background-color: #34333500;
+    background-color: rgb(32, 32, 31);
   }
 
   .textSkills h3 {
