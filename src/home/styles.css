@@ -230,13 +230,11 @@
 .contato {
   display: flex;
   width: 100%;
-  height: 40vh;
-  background-color: white;
+  height: 20vh;
+
+  background-color: black;
   margin-top: 20px;
-}
-.contato h2 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px;
+  box-shadow: 1px 2px 3px 2px rgb(72, 0, 255);
 }
 
 .areaContato {
@@ -245,7 +243,6 @@
   align-items: center;
   flex-direction: column;
   width: 100%;
-  background-color: rgb(255, 255, 255);
 }
 
 .areaContato a {
@@ -253,14 +250,18 @@
   border: none;
   cursor: pointer;
   text-decoration: none;
-  color: rgb(42, 42, 42);
+  color: white;
   font-weight: 600;
   letter-spacing: 1px;
   opacity: 0.8;
 }
+.areaContato div {
+  display: flex;
+  flex-direction: row;
+}
 
 .areaContato h2 {
-  color: rgb(44, 43, 43);
+  color: white;
 }
 
 @media screen and (max-width: 1000px) {

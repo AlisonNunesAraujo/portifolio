@@ -97,11 +97,13 @@ export default function Home() {
         <div className="contato">
           <div className="areaContato">
             <h2>Redes sociais</h2>
-            <a href="https://www.instagram.com/alisonaraujo_dev/">Instagram</a>
-            <a href="https://www.linkedin.com/in/alisonara%C3%BAjo/">
-              Linkedin
-            </a>
-            <a href="https://github.com/AlisonNunesAraujo">Github</a>
+            <div>
+              <a href="https://www.instagram.com/alisonaraujo_dev/">Instagram</a>
+              <a href="https://www.linkedin.com/in/alisonara%C3%BAjo/">
+                Linkedin
+              </a>
+              <a href="https://github.com/AlisonNunesAraujo">Github</a>
+            </div>
           </div>
 
         </div>
