@@ -352,10 +352,6 @@
     color: white;
   }
 
-  .areaContato {
-    background-color: rgb(182, 223, 226);
-  }
-
   .contato {
     width: 100%;
     flex-direction: column;
