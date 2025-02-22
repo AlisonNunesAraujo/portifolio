@@ -34,7 +34,7 @@ export default function Home() {
           </div>
 
           <div className="areaProjetos">
-            <div className="idProj">
+            <div >
               <img src="https://github.com/AlisonNunesAraujo/walletApp/blob/main/assets/app.jpg?raw=true" />
               <h3>Aplicativo Controle de Gastos</h3>
               <p>
@@ -46,7 +46,7 @@ export default function Home() {
               </a>
             </div>
 
-            <div className="idProj">
+            <div >
               <img src="https://github.com/AlisonNunesAraujo/walletApp/blob/main/assets/app.jpg?raw=true" />
               <h3>Site Controle de gastos</h3>
               <p>
@@ -56,7 +56,7 @@ export default function Home() {
               </p>
               <a href="https://carteiraweb.vercel.app/">Acessar</a>
             </div>
-            <div className="idProj">
+            <div >
               <img src="https://github.com/AlisonNunesAraujo/appcompras/blob/main/assets/app.jpg?raw=true" />
               <h3>Aplicativo lista de compras</h3>
               <p>
