@@ -4,9 +4,10 @@
   align-items: center;
   width: 100%;
   height: auto;
-  background-color: rgb(240, 237, 237);
+  background-color: rgb(15, 22, 43);
   scroll-behavior: smooth;
 }
+/* 15, 22,43 */
 
 .item {
   display: flex;
@@ -29,8 +30,7 @@
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 30px;
   margin-bottom: 20px;
-  opacity: 0.9;
-  color: rgb(24, 24, 23);
+  color: white;
 }
 
 .textDesc {
@@ -38,17 +38,18 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 500;
-  color: rgb(35, 34, 34);
+  color: white;
 }
 
 .desc img {
   width: 300px;
   height: 300px;
-  border-radius: 30px;
+  border-radius: 150px;
 }
 .conteinerProjetos {
   width: 100%;
   height: 100vh;
+  margin-bottom: 100px;
 }
 
 .projetos {
@@ -138,7 +139,7 @@
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 30px;
   font-style: italic;
-  color: rgb(45, 44, 44);
+  color: white;
 }
 
 .textSkills {
@@ -146,7 +147,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: rgb(53, 52, 52);
+  color: white;
 }
 
 .textSkills h3 {
@@ -175,7 +176,6 @@
   border-radius: 10px;
   padding: 10px;
   transition: 1000ms;
-  margin: 10px;
 }
 
 .areaFront {
@@ -262,11 +262,13 @@
 
 @media screen and (max-width: 1000px) {
   .conteiner {
-    background-color: rgb(182, 223, 226);
     flex-direction: column;
     width: 100%;
     height: 100%;
     justify-items: center;
+
+    background-color: rgb(15, 22, 43);
+    scroll-behavior: smooth;
   }
   .desc {
     flex-direction: column;
@@ -290,12 +292,11 @@
   .subtitle {
     font-size: 18px;
     margin-top: 20px;
-    color: rgb(42, 41, 41);
+    color: white;
   }
   .textDesc {
     font-size: 14px;
-    color: rgb(36, 35, 35);
-    font-family: "Courier New", Courier, monospace;
+    color: white;
   }
   .areaImg img {
     width: 150px;
@@ -334,7 +335,6 @@
     margin-top: 30px;
     margin: 10px;
     gap: 10px;
-    margin-bottom: 20px;
   }
 
   .areaSkills div {
@@ -344,8 +344,8 @@
   }
 
   .textSkills h3 {
-    margin-top: 100%;
     color: rgb(48, 46, 46);
+    margin-top: 15vh;
   }
 
   .areaContato {

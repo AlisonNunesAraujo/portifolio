@@ -103,6 +103,7 @@ export default function Home() {
             </a>
             <a href="https://github.com/AlisonNunesAraujo">Github</a>
           </div>
+
         </div>
       </div>
     </div>
