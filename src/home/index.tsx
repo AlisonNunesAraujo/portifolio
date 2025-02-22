@@ -9,61 +9,64 @@ export default function Home() {
       <div className="item">
         <div className="desc">
           <h2 className="subtitle">Olá, meu nome é Alison Araújo</h2>
-          <div
-          >
+          <div>
             <h3 className="textDesc">
-              Eu sou desenvolvedor Mobile/front-end,
-              Apaixonado por tecnologia e programação,
-              atuo como desenvolvedor mobile e front-end júnior Gosto de
-              construir soluções inovadoras que facilitam a vida das
-
+              Eu sou desenvolvedor Mobile/front-end, Apaixonado por tecnologia e
+              programação, atuo como desenvolvedor mobile e front-end júnior
+              Gosto de construir soluções inovadoras que facilitam a vida das
               pessoas. Tenho experiência em desenvolvimento de aplicativos para
               Android e Ios, e criação de sistemas web. Sou Apaixonado, por
               tecnologia e busco constantemente me aprimorar nessa área.
             </h3>
-
           </div>
 
           <div className="areaImg">
-            <img src="https://avatars.githubusercontent.com/u/166415022?v=4" alt="img" />
+            <img
+              src="https://avatars.githubusercontent.com/u/166415022?v=4"
+              alt="img"
+            />
           </div>
         </div>
 
-        <div className="projetos">
-          <h2 className="textProjetos">Projetos</h2>
-        </div>
-
-        <div className="areaProjetos">
-          <div className="idProj">
-            <img src="https://github.com/AlisonNunesAraujo/walletApp/blob/main/assets/app.jpg?raw=true" />
-            <h3>Aplicativo Controle de Gastos</h3>
-            <p>
-              Esse Aplicativo tem como objetivo ajudar as pessoas a gerenciar
-              suas financas pessoais registrando seus gastos e receitas
-            </p>
-            <a href="https://github.com/AlisonNunesAraujo/walletApp">Acessar</a>
+        <div className="conteinerProjetos">
+          <div className="projetos">
+            <h2 className="textProjetos">Projetos</h2>
           </div>
 
-          <div className="idProj">
-            <img src="https://github.com/AlisonNunesAraujo/walletApp/blob/main/assets/app.jpg?raw=true" />
-            <h3>Site Controle de gastos</h3>
-            <p>
-              Esse site tem como objetivo ajudar as pessoas a gerenciar suas
-              financas pessoais, registrando seus gastos e receitas , na versão
-              web
-            </p>
-            <a href="https://carteiraweb.vercel.app/">Acessar</a>
-          </div>
-          <div className="idProj">
-            <img src="https://github.com/AlisonNunesAraujo/appcompras/blob/main/assets/app.jpg?raw=true" />
-            <h3>Aplicativo lista de compras</h3>
-            <p>
-              Esse Aplicativo bem simples pode auxiliar na hora de fazer
-              compras, podendo armazenar sua lista de compras
-            </p>
-            <a href="https://github.com/AlisonNunesAraujo/appcompras">
-              Acessar
-            </a>
+          <div className="areaProjetos">
+            <div className="idProj">
+              <img src="https://github.com/AlisonNunesAraujo/walletApp/blob/main/assets/app.jpg?raw=true" />
+              <h3>Aplicativo Controle de Gastos</h3>
+              <p>
+                Esse Aplicativo tem como objetivo ajudar as pessoas a gerenciar
+                suas financas pessoais registrando seus gastos e receitas
+              </p>
+              <a href="https://github.com/AlisonNunesAraujo/walletApp">
+                Acessar
+              </a>
+            </div>
+
+            <div className="idProj">
+              <img src="https://github.com/AlisonNunesAraujo/walletApp/blob/main/assets/app.jpg?raw=true" />
+              <h3>Site Controle de gastos</h3>
+              <p>
+                Esse site tem como objetivo ajudar as pessoas a gerenciar suas
+                financas pessoais, registrando seus gastos e receitas , na
+                versão web
+              </p>
+              <a href="https://carteiraweb.vercel.app/">Acessar</a>
+            </div>
+            <div className="idProj">
+              <img src="https://github.com/AlisonNunesAraujo/appcompras/blob/main/assets/app.jpg?raw=true" />
+              <h3>Aplicativo lista de compras</h3>
+              <p>
+                Esse Aplicativo bem simples pode auxiliar na hora de fazer
+                compras, podendo armazenar sua lista de compras
+              </p>
+              <a href="https://github.com/AlisonNunesAraujo/appcompras">
+                Acessar
+              </a>
+            </div>
           </div>
         </div>
 
