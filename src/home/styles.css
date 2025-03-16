@@ -50,7 +50,6 @@
 .conteinerProjetos {
   width: 100%;
   height: 100vh;
-  margin-bottom: 100px;
 }
 
 .projetos {
@@ -171,12 +170,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 40vh;
-  height: 40vh;
+  width: 100vh;
+  height: auto;
   box-shadow: 1px 1px 4px 0px;
   border-radius: 10px;
   padding: 10px;
   transition: 1000ms;
+  gap: 10px;
 }
 
 .areaFront {
@@ -188,8 +188,8 @@
 }
 
 .areaFront img {
-  width: 3vh;
-  height: 3vh;
+  width: 6vh;
+  height: 6vh;
   border-radius: 10px;
 }
 .areaFront h2 {
@@ -343,9 +343,10 @@
   }
 
   .areaSkills div {
-    width: 50%;
-    height: 30vh;
+    width: 90%;
+    height: auto;
     background-color: rgb(32, 32, 31);
+    gap: 10px;
   }
 
   .textSkills h3 {
@@ -361,7 +362,9 @@
   }
   .areaContato {
     width: 100%;
-    height: 20vh;
+    height: 10vh;
+    bottom: 0px;
+    margin-bottom:  20px;
   }
 }
 
