@@ -191,6 +191,8 @@
   width: 6vh;
   height: 6vh;
   border-radius: 10px;
+  animation: flutuar 5s ease-in-out infinite;
+  
 }
 .areaFront h2 {
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -226,6 +228,7 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 15px;
   color: white;
+  animation: flutuar 5s ease-in-out infinite;
 }
 
 .contato {
@@ -373,7 +376,7 @@
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-15px);
+    transform: translateY(-10px);
   }
   100% {
     transform: translateY(0);
