@@ -54,7 +54,7 @@ export default function Home() {
                 financas pessoais, registrando seus gastos e receitas , na
                 versão web
               </p>
-              <a href="https://carteiraweb.vercel.app/">Acessar</a>
+              <a href="https://github.com/AlisonNunesAraujo/walletWeb">Acessar</a>
             </div>
             <div>
               <img src="https://github.com/AlisonNunesAraujo/appcompras/blob/main/assets/app.jpg?raw=true" />
