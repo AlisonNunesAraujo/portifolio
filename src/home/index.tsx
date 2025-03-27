@@ -70,7 +70,14 @@ export default function Home() {
           </div>
         </div>
 
-        
+        <div className="formacao">
+          <div>
+            <h3>Formação</h3>
+            <h4>Cursando Análise e Desenvolvimento de Sistemas</h4>
+            <h4>Fabrica de Aplicativos - Sujeito Programador</h4>
+            <h4>AWS: Academy Cloud Foundations</h4>
+          </div>
+        </div>
 
         <div className="areaSkills">
           <div className="areaFront">
@@ -96,7 +103,6 @@ export default function Home() {
           <div className="areaContato">
             <h2>Redes sociais</h2>
             <div>
-              
               <a href="https://www.linkedin.com/in/alisonara%C3%BAjo/">
                 Linkedin
               </a>
