@@ -371,8 +371,8 @@
     height: 20%;
   }
   .formacao {
-    width: 90%;
-    height: 50vh;
+    width: 70%;
+    height: 40vh;
     flex-direction: column;
     margin-bottom: 20px;
     align-items: center;
