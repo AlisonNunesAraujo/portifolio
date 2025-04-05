@@ -35,7 +35,7 @@ export default function Home() {
 
           <div className="areaProjetos">
             <div>
-              <img src="https://github.com/AlisonNunesAraujo/walletApp/blob/main/assets/app.jpg?raw=true" />
+              <img src="https://lh3.googleusercontent.com/r9hEHCqjHD2gReX5JFTEnIdWFn1BzF2qpXif-_VzjSzT_rT8wdh39UytSfIMsf1c6II" />
               <h3>Aplicativo Controle de Gastos</h3>
               <p>
                 Esse Aplicativo tem como objetivo ajudar as pessoas a gerenciar
@@ -47,7 +47,7 @@ export default function Home() {
             </div>
 
             <div>
-              <img src="https://github.com/AlisonNunesAraujo/walletApp/blob/main/assets/app.jpg?raw=true" />
+              <img src="https://lh3.googleusercontent.com/r9hEHCqjHD2gReX5JFTEnIdWFn1BzF2qpXif-_VzjSzT_rT8wdh39UytSfIMsf1c6II" />
               <h3>Site Controle de gastos</h3>
               <p>
                 Esse site tem como objetivo ajudar as pessoas a gerenciar suas
