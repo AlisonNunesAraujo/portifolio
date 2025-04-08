@@ -41,7 +41,10 @@ export default function Home() {
                 Esse Aplicativo tem como objetivo ajudar as pessoas a gerenciar
                 suas financas pessoais registrando seus gastos e receitas
               </p>
-              <a href="https://github.com/AlisonNunesAraujo/walletApp">
+              <a
+                href="https://github.com/AlisonNunesAraujo/walletApp"
+                target="_blank"
+              >
                 Acessar
               </a>
             </div>
@@ -54,7 +57,9 @@ export default function Home() {
                 financas pessoais, registrando seus gastos e receitas , na
                 versão web
               </p>
-              <a href="https://wallet-web-flame.vercel.app/">Acessar</a>
+              <a href="https://wallet-web-flame.vercel.app/" target="_blank">
+                Acessar
+              </a>
             </div>
             <div>
               <img src="https://github.com/AlisonNunesAraujo/appcompras/blob/main/assets/app.jpg?raw=true" />
@@ -63,7 +68,24 @@ export default function Home() {
                 Esse Aplicativo bem simples pode auxiliar na hora de fazer
                 compras, podendo armazenar sua lista de compras
               </p>
-              <a href="https://github.com/AlisonNunesAraujo/appcompras">
+              <a
+                href="https://github.com/AlisonNunesAraujo/appcompras"
+                target="_blank"
+              >
+                Acessar
+              </a>
+            </div>
+            <div>
+              <img src="../public/appstore.png" />
+              <h3>Sistema web de controle de agendas para barbeiros</h3>
+              <p>
+                Voçe pode controlar sua agendas de cortes ou demais serviços com
+                esse sistema web que foi desenvolvido para ajudar o barbeiro!
+              </p>
+              <a
+                href="https://barber-web-eosin.vercel.app/"
+                target="_blank"
+              >
                 Acessar
               </a>
             </div>
