@@ -76,7 +76,7 @@ export default function Home() {
               </a>
             </div>
             <div>
-              <img src="../public/appstore.png" />
+              <img src="https://github.com/AlisonNunesAraujo/portifolio/blob/main/public/appstore.png?raw=true" />
               <h3>Sistema web de controle de agendas para barbeiros</h3>
               <p>
                 Voçe pode controlar sua agendas de cortes ou demais serviços com
