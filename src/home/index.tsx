@@ -26,6 +26,10 @@ export default function Home() {
               alt="img"
             />
           </div>
+
+
+
+
         </div>
 
         <div className="conteinerProjetos">

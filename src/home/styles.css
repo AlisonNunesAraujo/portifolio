@@ -14,6 +14,7 @@
   align-items: center;
   width: 100%;
   height: auto;
+  margin-top: 50px;
 }
 
 .desc {
@@ -38,6 +39,7 @@
   font-size: 20px;
   font-weight: 500;
   color: white;
+  text-align: center;
 }
 
 .desc img {
@@ -91,6 +93,7 @@
   font-size: 17px;
   transition: 1000ms;
   color: rgb(255, 255, 255);
+  text-align: center;
 }
 .areaProjetos p {
   margin: 0;
@@ -100,6 +103,7 @@
   margin-top: 10px;
   transition: 1000ms;
   color: white;
+  text-align: center;
 }
 
 .areaProjetos div:hover p {
