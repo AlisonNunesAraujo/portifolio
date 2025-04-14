@@ -8,10 +8,9 @@ export default function Home() {
 
       <div className="item">
         <div className="desc">
-          <h2 className="subtitle">Olá, meu nome é Alison Araújo</h2>
           <div>
             <h3 className="textDesc">
-              Eu sou desenvolvedor Mobile/front-end, Apaixonado por tecnologia e
+              Olá, meu nome é Alison Araújo! Eu sou desenvolvedor Mobile/front-end, Apaixonado por tecnologia e
               programação, atuo como desenvolvedor mobile e front-end júnior
               Gosto de construir soluções inovadoras que facilitam a vida das
               pessoas. Tenho experiência em desenvolvimento de aplicativos para
@@ -26,10 +25,6 @@ export default function Home() {
               alt="img"
             />
           </div>
-
-
-
-
         </div>
 
         <div className="conteinerProjetos">
@@ -86,10 +81,7 @@ export default function Home() {
                 Voçe pode controlar sua agendas de cortes ou demais serviços com
                 esse sistema web que foi desenvolvido para ajudar o barbeiro!
               </p>
-              <a
-                href="https://barber-web-eosin.vercel.app/"
-                target="_blank"
-              >
+              <a href="https://barber-web-eosin.vercel.app/" target="_blank">
                 Acessar
               </a>
             </div>
