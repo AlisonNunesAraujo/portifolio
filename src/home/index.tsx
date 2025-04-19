@@ -10,12 +10,13 @@ export default function Home() {
         <div className="desc">
           <div>
             <h3 className="textDesc">
-              Olá, meu nome é Alison Araújo! Eu sou desenvolvedor Mobile/front-end, Apaixonado por tecnologia e
-              programação, atuo como desenvolvedor mobile e front-end júnior
-              Gosto de construir soluções inovadoras que facilitam a vida das
-              pessoas. Tenho experiência em desenvolvimento de aplicativos para
-              Android e Ios, e criação de sistemas web. Sou Apaixonado, por
-              tecnologia e busco constantemente me aprimorar nessa área.
+              Olá, meu nome é Alison Araújo! Eu sou desenvolvedor
+              Mobile/front-end, Apaixonado por tecnologia e programação, atuo
+              como desenvolvedor mobile e front-end júnior Gosto de construir
+              soluções inovadoras que facilitam a vida das pessoas. Tenho
+              experiência em desenvolvimento de aplicativos para Android e Ios,
+              e criação de sistemas web. Sou Apaixonado, por tecnologia e busco
+              constantemente me aprimorar nessa área.
             </h3>
           </div>
 
@@ -41,7 +42,7 @@ export default function Home() {
                 suas financas pessoais registrando seus gastos e receitas
               </p>
               <a
-                href="https://github.com/AlisonNunesAraujo/walletApp"
+                href="https://play.google.com/store/apps/details?id=com.alisonaraujo.Wallet"
                 target="_blank"
               >
                 Acessar
