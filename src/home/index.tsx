@@ -49,18 +49,7 @@ export default function Home() {
               </a>
             </div>
 
-            <div>
-              <img src="https://lh3.googleusercontent.com/r9hEHCqjHD2gReX5JFTEnIdWFn1BzF2qpXif-_VzjSzT_rT8wdh39UytSfIMsf1c6II" />
-              <h3>Site Controle de gastos</h3>
-              <p>
-                Esse site tem como objetivo ajudar as pessoas a gerenciar suas
-                financas pessoais, registrando seus gastos e receitas , na
-                versão web
-              </p>
-              <a href="https://wallet-web-flame.vercel.app/" target="_blank">
-                Acessar
-              </a>
-            </div>
+
             <div>
               <img src="https://github.com/AlisonNunesAraujo/appcompras/blob/main/assets/app.jpg?raw=true" />
               <h3>Aplicativo lista de compras</h3>
