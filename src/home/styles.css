@@ -4,7 +4,7 @@
   align-items: center;
   width: 100%;
   height: auto;
-  background-color: rgb(15, 22, 43);
+  background-color: rgb(255, 255, 255);
   scroll-behavior: smooth;
 }
 
@@ -31,7 +31,7 @@
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 30px;
   margin-bottom: 20px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .textDesc {
@@ -39,7 +39,7 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 500;
-  color: white;
+  color: rgb(0, 0, 0);
   text-align: center;
 }
 
@@ -78,11 +78,11 @@
   align-items: center;
   width: 40vh;
   height: 40vh;
-  box-shadow: 1px 1px 4px 0px;
+  box-shadow: 1px 1px 2px 0px;
   border-radius: 10px;
   padding: 20px;
   transition: 1000ms;
-  border: green 2px solid;
+  border: rgba(0, 0, 0, 0.392) 1px solid;
 }
 .areaProjetos div:hover {
   transform: scale(1.1);
@@ -93,7 +93,7 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 17px;
   transition: 1000ms;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   text-align: center;
 }
 .areaProjetos p {
@@ -103,7 +103,7 @@
   letter-spacing: 1px;
   margin-top: 10px;
   transition: 1000ms;
-  color: white;
+  color: rgb(0, 0, 0);
   text-align: center;
 }
 
@@ -139,16 +139,16 @@
   margin: auto;
   cursor: pointer;
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-weight: 600;
   letter-spacing: 1px;
   transition: 1000ms;
 }
 .textProjetos {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
   font-style: italic;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .formacao {
@@ -162,8 +162,7 @@
   border-radius: 10px;
   padding: 20px;
   transition: 1000ms;
-  background-color: rgb(32, 32, 31);
-  border: green 2px solid;
+  background-color: rgb(255, 255, 255);
   margin-top: 20px;
 }
 .formacao:hover {
@@ -186,17 +185,17 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 27px;
   transition: 1000ms;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .formacao h4 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 17px;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .textSkills h3 {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
   font-style: italic;
 }
@@ -208,7 +207,7 @@
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  color: rgb(43, 42, 41);
+  color: rgb(0, 0, 0);
 }
 
 .areaSkills div {
@@ -233,8 +232,7 @@
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  background-color: rgb(32, 32, 31);
-  border: green 2px solid;
+  background-color: rgb(255, 255, 255);
 }
 
 .areaFront img {
@@ -245,11 +243,11 @@
 }
 .areaFront h2 {
   font-family: Georgia, "Times New Roman", Times, serif;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 .areaMobile h2 {
   font-family: Georgia, "Times New Roman", Times, serif;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .areaMobile img {
@@ -263,12 +261,12 @@
   align-items: center;
   width: 100%;
   height: 50vh;
-  background-color: rgb(32, 32, 31);
+  background-color: rgb(255, 255, 255);
 }
 .areaMobile h3 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 15px;
 }
 
@@ -276,16 +274,16 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 15px;
-  color: white;
+  color: rgb(0, 0, 0);
   animation: flutuar 5s ease-in-out infinite;
 }
 
 .contato {
   display: flex;
   width: 100%;
-  height: 30vh;
-
-  background-color: rgb(32, 30, 30);
+  height: 20vh;
+  border: 1px solid rgba(0, 0, 0, 0.297);
+  background-color: rgb(255, 255, 255);
   margin-top: 20px;
 }
 
@@ -302,7 +300,7 @@
   border: none;
   cursor: pointer;
   text-decoration: none;
-  color: white;
+  color: rgb(0, 0, 0);
   font-weight: 600;
   letter-spacing: 1px;
   opacity: 0.8;
@@ -313,7 +311,8 @@
 }
 
 .areaContato h2 {
-  color: white;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
 }
 
 @media screen and (max-width: 860px) {
@@ -323,7 +322,7 @@
     height: 100%;
     justify-items: center;
 
-    background-color: rgb(15, 22, 43);
+    background-color: rgb(255, 255, 255);
     scroll-behavior: smooth;
   }
   .desc {
@@ -348,11 +347,11 @@
   .subtitle {
     font-size: 18px;
     margin-top: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
   }
   .textDesc {
     font-size: 14px;
-    color: white;
+    color: rgb(1, 1, 1);
   }
   .areaImg img {
     width: 150px;
@@ -405,12 +404,12 @@
     justify-content: center;
   }
   .formacao h3 {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 18px;
     text-align: center;
   }
   .formacao h4 {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 15px;
     text-align: center;
   }
@@ -425,12 +424,12 @@
   .areaSkills div {
     width: 90%;
     height: auto;
-    background-color: rgb(32, 32, 31);
+    background-color: rgb(255, 255, 255);
     gap: 10px;
   }
 
   .textSkills h3 {
-    color: white;
+    color: rgb(0, 0, 0);
   }
   .areaSkills img {
     width: 13%;
@@ -441,7 +440,7 @@
     height: 20vh;
     flex-direction: column;
     height: auto;
-    background-color: rgb(25, 24, 24);
+    background-color: rgb(255, 254, 254);
   }
   .areaContato {
     width: 100%;

@@ -65,13 +65,13 @@ export default function Home() {
               </a>
             </div>
             <div>
-              <img src="https://github.com/AlisonNunesAraujo/portifolio/blob/main/public/appstore.png?raw=true" />
-              <h3>Sistema web de controle de agendas para barbeiros</h3>
+              <img src="https://lh3.googleusercontent.com/r9hEHCqjHD2gReX5JFTEnIdWFn1BzF2qpXif-_VzjSzT_rT8wdh39UytSfIMsf1c6II" />
+              <h3>Pagina Web para finanças pessoais </h3>
               <p>
-                Voçe pode controlar sua agendas de cortes ou demais serviços com
-                esse sistema web que foi desenvolvido para ajudar o barbeiro!
+                Ao criar um conta do sistema, voçe pode registrar seus gastos e lucros,
+                sendo assim voçe terá um controle melhor de suas financas!
               </p>
-              <a href="https://barber-web-eosin.vercel.app/" target="_blank">
+              <a href="https://carteiraweb.vercel.app/" target="_blank">
                 Acessar
               </a>
             </div>
