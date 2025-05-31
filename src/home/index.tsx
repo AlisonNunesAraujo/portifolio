@@ -7,12 +7,20 @@ export default function Home() {
       <Header />
 
       <div className="item">
+
         <div className="desc">
+          <div className="areaImg">
+            <img
+              src="https://avatars.githubusercontent.com/u/166415022?v=4"
+              alt="img"
+            />
+            <h2>Programador Mobile e Front-End </h2>
+          </div>
           <div>
             <h3 className="textDesc">
               Olá, meu nome é Alison Araújo! Eu sou desenvolvedor
               Mobile/front-end, Apaixonado por tecnologia e programação, atuo
-              como desenvolvedor mobile e front-end júnior Gosto de construir
+              como desenvolvedor mobile e front-end júnior! Gosto de construir
               soluções inovadoras que facilitam a vida das pessoas. Tenho
               experiência em desenvolvimento de aplicativos para Android e Ios,
               e criação de sistemas web. Sou Apaixonado, por tecnologia e busco
@@ -20,12 +28,7 @@ export default function Home() {
             </h3>
           </div>
 
-          <div className="areaImg">
-            <img
-              src="https://avatars.githubusercontent.com/u/166415022?v=4"
-              alt="img"
-            />
-          </div>
+
         </div>
 
         <div className="conteinerProjetos">
@@ -83,7 +86,7 @@ export default function Home() {
             <h3>Formação</h3>
             <h4>Cursando Análise e Desenvolvimento de Sistemas</h4>
             <h4>Fabrica de Aplicativos - Sujeito Programador</h4>
-            <h4>AWS: Academy Cloud Foundations</h4>
+            <h4>RocketSeat - React Native</h4>
           </div>
         </div>
 
