@@ -15,6 +15,7 @@ export default function Home() {
               alt="img"
             />
             <h2>Programador Mobile e Front-End </h2>
+            <a href="./public/currículo Alison Araújo.docx" download={true}>Baixar meu currículo &#x2193</a>
           </div>
           <div>
             <h3 className="textDesc">

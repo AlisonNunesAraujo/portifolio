@@ -54,6 +54,12 @@
   font-family: Arial, sans-serif;
   font-size: 25px;
 }
+.areaImg a {
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+}
 .desc img {
   width: 200px;
   height: 200px;
@@ -337,6 +343,13 @@
     font-family: Arial, sans-serif;
     font-size: 20px;
     margin-bottom: 10px;
+  }
+  .areaImg a {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    margin-bottom: 15px;
   }
 
   .conteinerProjetos {
