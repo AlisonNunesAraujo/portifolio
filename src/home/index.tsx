@@ -7,28 +7,25 @@ export default function Home() {
       <Header />
 
       <div className="item">
-
         <div className="desc">
           <div className="areaImg">
             <img
               src="https://avatars.githubusercontent.com/u/166415022?v=4"
               alt="img"
             />
-            <h2>Programador Mobile e Front-End </h2>
+            <h2>Programador Mobile especialista em React Native</h2>
           </div>
           <div>
             <h3 className="textDesc">
               Olá, meu nome é Alison Araújo! Eu sou desenvolvedor
-              Mobile/front-end, Apaixonado por tecnologia e programação, atuo
-              como desenvolvedor mobile e front-end júnior! Gosto de construir
+              Mobile com React Native e tenho habilidades em desenvolvimento front-end também, atuo
+              como desenvolvedor mobile! Gosto de construir
               soluções inovadoras que facilitam a vida das pessoas. Tenho
               experiência em desenvolvimento de aplicativos para Android e Ios,
-              e criação de sistemas web. Sou Apaixonado, por tecnologia e busco
-              constantemente me aprimorar nessa área.
+              e criação de sistemas web. Busco
+              constantemente aprimorar minhas habilidades e melhorar meus conhecimentos.
             </h3>
           </div>
-
-
         </div>
 
         <div className="conteinerProjetos">
@@ -52,7 +49,6 @@ export default function Home() {
               </a>
             </div>
 
-
             <div>
               <img src="https://github.com/AlisonNunesAraujo/appcompras/blob/main/assets/app.jpg?raw=true" />
               <h3>Aplicativo lista de compras</h3>
@@ -71,8 +67,9 @@ export default function Home() {
               <img src="https://lh3.googleusercontent.com/r9hEHCqjHD2gReX5JFTEnIdWFn1BzF2qpXif-_VzjSzT_rT8wdh39UytSfIMsf1c6II" />
               <h3>Pagina Web para finanças pessoais </h3>
               <p>
-                Ao criar um conta do sistema, voçe pode registrar seus gastos e lucros,
-                sendo assim voçe terá um controle melhor de suas financas!
+                Ao criar um conta do sistema, voçe pode registrar seus gastos e
+                lucros, sendo assim voçe terá um controle melhor de suas
+                financas!
               </p>
               <a href="https://carteiraweb.vercel.app/" target="_blank">
                 Acessar
