@@ -336,8 +336,10 @@
   .areaImg h2 {
     color: white;
     font-family: Arial, sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     margin-bottom: 10px;
+    text-align: center;
+    padding: 10px;
   }
 
   .conteinerProjetos {
