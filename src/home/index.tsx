@@ -13,7 +13,7 @@ export default function Home() {
               src="https://avatars.githubusercontent.com/u/166415022?v=4"
               alt="img"
             />
-            <h2>Programador Mobile especialista em React Native</h2>
+            <h2>Programador de aplicativos e WebSites</h2>
           </div>
           <div>
             <h3 className="textDesc">
