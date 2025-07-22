@@ -117,6 +117,13 @@ export default function Home() {
                 Linkedin
               </a>
               <a href="https://github.com/AlisonNunesAraujo">Github</a>
+              <a
+                href="https://wa.me/5533998493207"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                WhatsApp
+              </a>
             </div>
           </div>
         </div>
