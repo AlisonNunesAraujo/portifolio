@@ -28,12 +28,12 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="conteinerProjetos">
+        <div className="conteinerProjetos" id="projetos">
           <div className="projetos">
             <h2 className="textProjetos">Projetos</h2>
           </div>
 
-          <div className="areaProjetos" id="projetos">
+          <div className="areaProjetos" >
             <div>
               <img src="https://lh3.googleusercontent.com/r9hEHCqjHD2gReX5JFTEnIdWFn1BzF2qpXif-_VzjSzT_rT8wdh39UytSfIMsf1c6II" />
               <h3>Aplicativo Controle de Gastos</h3>
