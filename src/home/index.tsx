@@ -7,7 +7,7 @@ export default function Home() {
       <Header />
 
       <div className="item">
-        <div className="desc">
+        <div className="desc" id="sobre">
           <div className="areaImg">
             <img
               src="https://avatars.githubusercontent.com/u/166415022?v=4"
@@ -33,7 +33,7 @@ export default function Home() {
             <h2 className="textProjetos">Projetos</h2>
           </div>
 
-          <div className="areaProjetos">
+          <div className="areaProjetos" id="projetos">
             <div>
               <img src="https://lh3.googleusercontent.com/r9hEHCqjHD2gReX5JFTEnIdWFn1BzF2qpXif-_VzjSzT_rT8wdh39UytSfIMsf1c6II" />
               <h3>Aplicativo Controle de Gastos</h3>
@@ -78,7 +78,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="formacao">
+        <div className="formacao" id="formação">
           <div>
             <h3>Formação</h3>
             <h4>Cursando Análise e Desenvolvimento de Sistemas</h4>
@@ -109,7 +109,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="contato">
+        <div className="contato" id="contato">
           <div className="areaContato">
             <h2>Redes sociais</h2>
             <div>
