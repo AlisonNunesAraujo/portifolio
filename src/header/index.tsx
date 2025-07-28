@@ -15,11 +15,12 @@ export default function Header() {
           <a href="#projetos">Projetos</a>
         </button>
         <button>
-          <a href="#contato">Contato</a>
-        </button>
-        <button>
           <a href="#formação">Formação</a>
         </button>
+        <button>
+          <a href="#contato">Contato</a>
+        </button>
+        
       </div>
     </div>
   );
