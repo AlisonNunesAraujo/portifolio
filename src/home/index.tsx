@@ -33,7 +33,7 @@ export default function Home() {
             <h2 className="textProjetos">Projetos</h2>
           </div>
 
-          <div className="areaProjetos" >
+          <div className="areaProjetos">
             <div>
               <img src="https://lh3.googleusercontent.com/r9hEHCqjHD2gReX5JFTEnIdWFn1BzF2qpXif-_VzjSzT_rT8wdh39UytSfIMsf1c6II" />
               <h3>Aplicativo Controle de Gastos</h3>
@@ -72,6 +72,19 @@ export default function Home() {
                 financas!
               </p>
               <a href="https://carteiraweb.vercel.app/" target="_blank">
+                Acessar
+              </a>
+            </div>
+
+            <div>
+              <img src="https://th.bing.com/th/id/OIP.oUBUcFuTwxB3KZ9_mfZJtAHaHa?w=199&h=199&c=7&r=0&o=7&pid=1.7&rm=3" />
+              <h3>Chamados</h3>
+              <p>
+                Sistema web para gerenciamento de chamados, onde pode criar os
+                chamados e o administrador pode gerenciar os chamados
+                adicionados!
+              </p>
+              <a href="https://chamados-one.vercel.app/" target="_blank">
                 Acessar
               </a>
             </div>
