@@ -50,7 +50,7 @@ export default function Home() {
             </div>
 
             <div>
-              <img src="https://github.com/AlisonNunesAraujo/appcompras/blob/main/assets/app.jpg?raw=true" />
+              <img src="https://th.bing.com/th/id/OIP.le2lwOG_ICUWRNHgvUfATgHaHa?w=216&h=216&c=7&r=0&o=7&pid=1.7&rm=3" />
               <h3>Aplicativo lista de compras</h3>
               <p>
                 Esse Aplicativo bem simples pode auxiliar na hora de fazer
