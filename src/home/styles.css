@@ -80,9 +80,10 @@
   place-items: center;
   justify-content: center;
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   padding: 20px;
   gap: 30px;
+
  
 }
 
@@ -95,7 +96,7 @@
   border-radius: 10px;
   padding: 20px;
   transition: 1000ms;
-  border: rgb(255, 255, 255) 1px solid;
+  border: rgb(27, 1, 172) 1px solid;
    
 }
 .areaProjetos div:hover {
@@ -165,26 +166,27 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100vh;
-  height: 70dvh;
+  width: 80vh;
+  height: 50dvh;
   border-radius: 10px;
   padding: 20px;
   transition: 1000ms;
   background-color: rgb(0, 0, 0);
   margin-top: 90px;
-  border: white 1px solid;
-  margin-bottom: 20px;
+  
+  margin-bottom: 50px;
 }
 .formacao div {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100vh;
-  height: 40vh;
+  width: 80vh;
+  height: 100vh;
   border-radius: 10px;
   padding: 20px;
   transition: 1000ms;
   gap: 20px;
+    border: rgb(27, 1, 172) 1px solid;
 }
 
 .formacao h3 {
@@ -208,8 +210,8 @@
 }
 
 .areaSkills {
-  width: 100%;
-  height: 100vh;
+  width: 80%;
+  height: 90vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -221,12 +223,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100vh;
+  width: 80vh;
   height: auto;
   border-radius: 10px;
-  padding: 10px;
+  padding: 20px;
   gap: 10px;
-  border: white 1px solid;
+    border: rgb(27, 1, 172) 1px solid;
+  margin-bottom: 20px;
 }
 
 .areaFront {
@@ -243,7 +246,8 @@
   border-radius: 10px;
 }
 .areaFront h2 {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
   color: white;
 }
 
