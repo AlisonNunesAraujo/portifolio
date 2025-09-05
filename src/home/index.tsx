@@ -16,9 +16,9 @@ export default function Home() {
           </div>
           <div>
             <h3 className="textDesc">
-              Hello, my name is Alison Araújo! I’m a male fullstack developer,
+              Hello, my name is Alison Araújo! <br/>  I’m a male fullstack developer, 
               proficient in technologies such as ReactJS, React Native, NextJS,
-              NodeJS, and NestJS. I build complete web and mobile applications,
+              NodeJS, and NestJS.<br/> I build complete web and mobile applications,
               combining functional design, performance, and clean code to turn
               ideas into real solutions
             </h3>
