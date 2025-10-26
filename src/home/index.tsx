@@ -3,7 +3,7 @@ import "./styles.css";
 export default function App() {
   return (
     <div>
-      {/* ===== SOBRE ===== */}
+     
       <section id="sobre" className="conteiner item">
         <div className="desc">
           <div className="areaImg">
@@ -96,8 +96,7 @@ export default function App() {
       </section>
 
     
-      <section id="habilidades" className="conteiner">
-        {/* ===== HABILIDADES ===== */}
+          
         <section id="habilidades" className="conteiner">
           <h2 className="textProjetos">Habilidades</h2>
 
@@ -181,7 +180,7 @@ export default function App() {
             </div>
           </div>
         </section>
-      </section>
+   
 
       
       <footer id="contato">
