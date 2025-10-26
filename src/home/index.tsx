@@ -47,7 +47,7 @@ export default function App() {
             </div>
           </div>
 
-          <div className="projeto">
+          <div >
             <img src="https://vetrinariosite.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-dog.e44fd084.webp&w=750&q=100" />
             <div className="projetoInfo">
               <h3>Landing Page PetShop</h3>
