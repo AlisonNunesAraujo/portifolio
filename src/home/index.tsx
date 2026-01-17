@@ -172,12 +172,20 @@ export default function App() {
             />
             <p>Testes Unitários</p>
           </div>
+           <div className="skill">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg"
+              alt="Kotlin"
+            />
+            <p>Kotlin</p>
+          </div>
+        
         </div>
       </section>
 
       <footer id="contato">
         <div className="footerContent">
-          <p>© 2025 Alison Araújo — Todos os direitos reservados.</p>
+          <p>© 2026 Alison Araújo — Todos os direitos reservados.</p>
           {/* <p>
             Feito com ❤️ usando{" "}
             <a
