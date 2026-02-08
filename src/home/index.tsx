@@ -95,6 +95,13 @@ export default function App() {
         <h2 className="textProjetos">Habilidades</h2>
 
         <div className="habilidadesGrid">
+           <div className="skill">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg"
+              alt="Swift"
+            />
+            <p>Swift</p>
+          </div>
           <div className="skill">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
