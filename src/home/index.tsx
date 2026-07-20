@@ -10,15 +10,15 @@ export default function App() {
               src="https://avatars.githubusercontent.com/u/166415022?v=4"
               alt="Foto de perfil"
             />
-            <h2>Desenvolvedor Mobile</h2>
+            <h2>Desenvolvedor</h2>
           </div>
 
           <div className="textDesc">
             <p>
-              Desenvolvedor Mobile com experiência em React Native, focado na
-              criação de aplicativos performáticos e escaláveis. Possuo
-              conhecimento em Kotlin, integração com APIs e boas práticas de
-              desenvolvimento mobile.
+              Desenvolvedor com experiência em React, React Native e Node.js
+              (NestJS/Express), focado na criação de aplicações mobile e backend
+              performáticas e escaláveis. Também possuo conhecimento em
+              Swift, Kotlin e Java/Spring Boot.
             </p>
           </div>
         </div>
@@ -31,16 +31,17 @@ export default function App() {
           <div>
             <img src="https://lh3.googleusercontent.com/r9hEHCqjHD2gReX5JFTEnIdWFn1BzF2qpXif-_VzjSzT_rT8wdh39UytSfIMsf1c6II" />
             <div className="projetoInfo">
-              <h3>Pagina Web para finanças pessoais </h3>
+              <h3>Carteira Web — Controle Financeiro</h3>
               <p>
-                Ao criar um conta do sistema, voçe pode registrar seus gastos e
-                lucros, sendo assim voçe terá um controle melhor de suas
-                financas!
+                Aplicação web para controle de finanças pessoais, construída
+                com React, React Hook Form, Zod e Firebase. O usuário cria
+                uma conta, registra receitas e despesas e acompanha o saldo
+                de forma consolidada.
               </p>
-              <a href="https://carteiraweb.vercel.app/" target="_blank">
-                Acessar
-              </a>
             </div>
+            <a href="https://carteiraweb.vercel.app/" target="_blank">
+              Acessar
+            </a>
           </div>
 
           <div>
@@ -51,10 +52,10 @@ export default function App() {
                 Landing Page para PetShop, onde o usuário pode ver os serviços
                 oferecidos e entrar em contato com o estabelecimento.
               </p>
-              <a href="https://veterinariosite.vercel.app/" target="_blank">
-                Acessar
-              </a>
             </div>
+            <a href="https://veterinariosite.vercel.app/" target="_blank">
+              Acessar
+            </a>
           </div>
 
            <div>
@@ -62,19 +63,75 @@ export default function App() {
             <div className="projetoInfo">
               <h3>Aplicativo Controle de Gastos</h3>
               <p>
-                Esse Aplicativo tem como objetivo ajudar as pessoas a gerenciar
-                suas financas pessoais registrando seus gastos e receitas
+                Esse aplicativo tem como objetivo ajudar as pessoas a gerenciar
+                suas finanças pessoais, registrando seus gastos e receitas.
               </p>
-              <a
-                href="https://play.google.com/store/apps/details?id=com.alisonaraujo.Wallet"
-                target="_blank"
-              >
-                Acessar
-              </a>
             </div>
-          </div> 
+            <a
+              href="https://play.google.com/store/apps/details?id=com.alisonaraujo.Wallet"
+              target="_blank"
+            >
+              Acessar
+            </a>
+          </div>
 
-          
+          <div>
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg"
+              alt="SwiftUI"
+              style={{
+                background: "linear-gradient(135deg, #1e293b, #0f172a)",
+                padding: "2rem",
+                objectFit: "contain",
+                borderRadius: "0.75rem",
+              }}
+            />
+            <div className="projetoInfo">
+              <h3>SwiftUi</h3>
+              <p>
+                Projeto básico feito do zero em SwiftUI para praticar
+                fundamentos de iOS: telas construídas com NavigationStack,
+                animações de transição e componentes interativos como grids
+                e botões.
+              </p>
+            </div>
+            <a
+              href="https://github.com/AlisonNunesAraujo/swift-studing"
+              target="_blank"
+            >
+              Acessar
+            </a>
+          </div>
+
+          <div>
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
+              alt="Spring Boot"
+              style={{
+                background: "linear-gradient(135deg, #1e293b, #0f172a)",
+                padding: "2rem",
+                objectFit: "contain",
+                borderRadius: "0.75rem",
+              }}
+            />
+            <div className="projetoInfo">
+              <h3>Spring Boot Student</h3>
+              <p>
+                Projeto de estudos em Java com Spring Boot, ainda em
+                desenvolvimento. Por enquanto conta com a camada de
+                Controller para APIs REST, com Service, Repository e
+                persistência de dados sendo adicionados conforme avanço nos
+                estudos.
+              </p>
+            </div>
+            <a
+              href="https://github.com/AlisonNunesAraujo/spring-boot-student"
+              target="_blank"
+            >
+              Acessar
+            </a>
+          </div>
+
         </div>
       </section>
 
@@ -173,7 +230,28 @@ export default function App() {
             />
             <p>Kotlin</p>
           </div>
-        
+          <div className="skill">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+              alt="Java"
+            />
+            <p>Java</p>
+          </div>
+          <div className="skill">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
+              alt="Spring Boot"
+            />
+            <p>Spring Boot</p>
+          </div>
+          <div className="skill">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+              alt="AWS"
+            />
+            <p>AWS</p>
+          </div>
+
         </div>
       </section>
 

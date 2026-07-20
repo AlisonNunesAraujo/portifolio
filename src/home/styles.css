@@ -127,6 +127,11 @@ header a:hover {
   width: 100%;
 }
 
+.areaProjetos > div {
+  display: flex;
+  flex-direction: column;
+}
+
 .areaProjetos div {
   background: #1e293b;
   padding: 1.5rem;
@@ -161,7 +166,9 @@ header a:hover {
 }
 
 .areaProjetos a {
-  display: inline-block;
+  display: block;
+  width: fit-content;
+  margin: auto auto 0;
   background: #3b82f6;
   color: #fff;
   text-decoration: none;
