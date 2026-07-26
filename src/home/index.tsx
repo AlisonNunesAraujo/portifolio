@@ -24,6 +24,39 @@ export default function App() {
         </div>
       </section>
 
+      <section id="experiencia" className="conteinerProjetos conteiner">
+        <h2 className="textProjetos">Experiência</h2>
+
+        <div className="areaExperiencia">
+          <div className="experienciaItem">
+            <div className="experienciaHeader">
+              <h3>Desenvolvedor Mobile — React Native</h3>
+              <span className="experienciaAtual">Atual</span>
+            </div>
+            <span className="experienciaEmpresa">Busca Busca</span>
+            <span className="experienciaPeriodo">2025 — Atual</span>
+            <p>
+              Atuação em todo o aplicativo com React Native, incluindo
+              autenticação, carrinho, checkout, gestão de pedidos e
+              cancelamentos.
+            </p>
+          </div>
+
+          <div className="experienciaItem">
+            <div className="experienciaHeader">
+              <h3>Desenvolvedor Freelance</h3>
+            </div>
+            <span className="experienciaEmpresa">App de Relacionamento</span>
+            <span className="experienciaPeriodo">2025 · 6 meses</span>
+            <p>
+              Desenvolvimento de um aplicativo de relacionamento para
+              cliente, do levantamento de requisitos à entrega das
+              principais funcionalidades da plataforma.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <section id="projetos" className="conteinerProjetos conteiner">
         <h2 className="textProjetos">Projetos Recentes</h2>
 
@@ -146,19 +179,34 @@ export default function App() {
             />
             <p>Swift</p>
           </div>
-          <div className="skill">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-              alt="React Native"
-            />
-            <p>React</p>
-          </div>
+          
           <div className="skill">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
               alt="React Native"
             />
             <p>React Native</p>
+          </div>
+           <div className="skill">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+              alt="Java"
+            />
+            <p>Java</p>
+          </div>
+          <div className="skill">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
+              alt="Spring Boot"
+            />
+            <p>Spring Boot</p>
+          </div>
+          <div className="skill">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+              alt="AWS"
+            />
+            <p>AWS</p>
           </div>
           <div className="skill">
             <img
@@ -180,6 +228,13 @@ export default function App() {
               alt="JavaScript"
             />
             <p>JavaScript</p>
+          </div>
+          <div className="skill">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+              alt="React Native"
+            />
+            <p>React</p>
           </div>
           <div className="skill">
             <img
@@ -230,27 +285,7 @@ export default function App() {
             />
             <p>Kotlin</p>
           </div>
-          <div className="skill">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
-              alt="Java"
-            />
-            <p>Java</p>
-          </div>
-          <div className="skill">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
-              alt="Spring Boot"
-            />
-            <p>Spring Boot</p>
-          </div>
-          <div className="skill">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
-              alt="AWS"
-            />
-            <p>AWS</p>
-          </div>
+         
 
         </div>
       </section>

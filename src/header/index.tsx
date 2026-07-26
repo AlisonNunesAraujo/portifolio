@@ -12,6 +12,9 @@ export default function Header() {
           <a href="#sobre">Sobre</a>
         </button>
         <button>
+          <a href="#experiencia">Experiência</a>
+        </button>
+        <button>
           <a href="#projetos">Projetos</a>
         </button>
         <button>
