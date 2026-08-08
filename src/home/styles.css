@@ -130,6 +130,7 @@ header a:hover {
 .areaProjetos > div {
   display: flex;
   flex-direction: column;
+  min-width: 0;
 }
 
 .areaProjetos div {
@@ -155,6 +156,7 @@ header a:hover {
 
 .projetoIcones {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 2rem;
@@ -166,6 +168,7 @@ header a:hover {
 
 .projetoIcones img {
   width: auto;
+  max-width: 35%;
   height: 80px;
   object-fit: contain;
   border-radius: 0;
