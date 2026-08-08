@@ -153,6 +153,25 @@ header a:hover {
   margin-bottom: 1rem;
 }
 
+.projetoIcones {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  height: 180px;
+  background: linear-gradient(135deg, #1e293b, #0f172a);
+  border-radius: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.projetoIcones img {
+  width: auto;
+  height: 80px;
+  object-fit: contain;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
 .areaProjetos h3 {
   font-size: 1.25rem;
   margin-bottom: 0.5rem;

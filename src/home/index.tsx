@@ -61,35 +61,9 @@ export default function App() {
         <h2 className="textProjetos">Projetos Recentes</h2>
 
         <div className="areaProjetos">
-          <div>
-            <img src="https://lh3.googleusercontent.com/r9hEHCqjHD2gReX5JFTEnIdWFn1BzF2qpXif-_VzjSzT_rT8wdh39UytSfIMsf1c6II" />
-            <div className="projetoInfo">
-              <h3>Carteira Web — Controle Financeiro</h3>
-              <p>
-                Aplicação web para controle de finanças pessoais, construída
-                com React, React Hook Form, Zod e Firebase. O usuário cria
-                uma conta, registra receitas e despesas e acompanha o saldo
-                de forma consolidada.
-              </p>
-            </div>
-            <a href="https://carteiraweb.vercel.app/" target="_blank">
-              Acessar
-            </a>
-          </div>
+       
 
-          <div>
-            <img src="https://vetrinariosite.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-dog.e44fd084.webp&w=750&q=100" />
-            <div className="projetoInfo">
-              <h3>Landing Page PetShop</h3>
-              <p>
-                Landing Page para PetShop, onde o usuário pode ver os serviços
-                oferecidos e entrar em contato com o estabelecimento.
-              </p>
-            </div>
-            <a href="https://veterinariosite.vercel.app/" target="_blank">
-              Acessar
-            </a>
-          </div>
+         
 
            <div>
             <img src="https://lh3.googleusercontent.com/r9hEHCqjHD2gReX5JFTEnIdWFn1BzF2qpXif-_VzjSzT_rT8wdh39UytSfIMsf1c6II" />
@@ -161,6 +135,49 @@ export default function App() {
               href="https://github.com/AlisonNunesAraujo/spring-boot-student"
               target="_blank"
             >
+              Acessar
+            </a>
+          </div>
+
+          <div>
+            <div className="projetoIcones">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
+                alt="Spring Boot"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+                alt="PostgreSQL"
+              />
+            </div>
+            <div className="projetoInfo">
+              <h3>Cadastro de Produto — API REST</h3>
+              <p>
+                API REST desenvolvida com Spring Boot e PostgreSQL para
+                cadastro e gerenciamento de produtos, com endpoints para
+                listar, buscar por ID, criar, atualizar e remover produtos.
+              </p>
+            </div>
+            <a
+              href="https://github.com/AlisonNunesAraujo/cadastro-de-produto"
+              target="_blank"
+            >
+              Acessar
+            </a>
+          </div>
+
+             <div>
+            <img src="https://lh3.googleusercontent.com/r9hEHCqjHD2gReX5JFTEnIdWFn1BzF2qpXif-_VzjSzT_rT8wdh39UytSfIMsf1c6II" />
+            <div className="projetoInfo">
+              <h3>Carteira Web — Controle Financeiro</h3>
+              <p>
+                Aplicação web para controle de finanças pessoais, construída
+                com React, React Hook Form, Zod e Firebase. O usuário cria
+                uma conta, registra receitas e despesas e acompanha o saldo
+                de forma consolidada.
+              </p>
+            </div>
+            <a href="https://carteiraweb.vercel.app/" target="_blank">
               Acessar
             </a>
           </div>
