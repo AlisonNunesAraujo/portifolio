@@ -46,7 +46,7 @@ export default function App() {
             <div className="experienciaHeader">
               <h3>Desenvolvedor Freelance</h3>
             </div>
-            <span className="experienciaEmpresa">App de Relacionamento</span>
+    
             <span className="experienciaPeriodo">2025 · 6 meses</span>
             <p>
               Desenvolvimento de um aplicativo de relacionamento para
