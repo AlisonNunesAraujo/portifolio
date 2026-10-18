@@ -122,7 +122,7 @@ header a:hover {
 
 .areaProjetos {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr));
   gap: 2rem;
   width: 100%;
 }
@@ -133,7 +133,7 @@ header a:hover {
   min-width: 0;
 }
 
-.areaProjetos div {
+.areaProjetos > div {
   background: #1e293b;
   padding: 1.5rem;
   border-radius: 1rem;
@@ -141,7 +141,7 @@ header a:hover {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.areaProjetos div:hover {
+.areaProjetos > div:hover {
   transform: translateY(-8px);
   box-shadow: 0 8px 20px rgba(59, 130, 246, 0.3);
 }
@@ -373,6 +373,20 @@ footer a:hover {
 
   .areaProjetos img {
     height: 140px;
+  }
+
+  .areaProjetos > div,
+  .experienciaItem {
+    padding: 1.1rem;
+  }
+
+  .projetoIcones {
+    height: 140px;
+    gap: 1rem;
+  }
+
+  .projetoIcones img {
+    height: 60px;
   }
 
   .textDesc {

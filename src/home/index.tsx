@@ -85,7 +85,7 @@ export default function App() {
           <div>
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg"
-              alt="SwiftUI"
+              alt="TervonPay"
               style={{
                 background: "linear-gradient(135deg, #1e293b, #0f172a)",
                 padding: "2rem",
@@ -94,16 +94,17 @@ export default function App() {
               }}
             />
             <div className="projetoInfo">
-              <h3>SwiftUi</h3>
+              <h3>TervonPay</h3>
               <p>
-                Projeto básico feito do zero em SwiftUI para praticar
-                fundamentos de iOS: telas construídas com NavigationStack,
-                animações de transição e componentes interativos como grids
-                e botões.
+                Carteira digital para iOS feita em SwiftUI, com cadastro e
+                login, saldo, envio de Pix, pagamento de contas, recarga de
+                celular e extrato. Usa MVVM e Clean Architecture, com dados
+                salvos localmente. Projeto demonstrativo, ainda em
+                desenvolvimento.
               </p>
             </div>
             <a
-              href="https://github.com/AlisonNunesAraujo/swift-studing"
+              href="https://github.com/AlisonNunesAraujo/TervonPay"
               target="_blank"
             >
               Acessar
@@ -151,15 +152,16 @@ export default function App() {
               />
             </div>
             <div className="projetoInfo">
-              <h3>Cadastro de Produto — API REST</h3>
+              <h3>E-Commerce-Api</h3>
               <p>
-                API REST desenvolvida com Spring Boot e PostgreSQL para
-                cadastro e gerenciamento de produtos, com endpoints para
-                listar, buscar por ID, criar, atualizar e remover produtos.
+                API REST de e-commerce desenvolvida com Spring Boot e
+                PostgreSQL, com produtos, categorias, lojas, pedidos,
+                vendedores, banners, carrinho e usuários. Usa Spring
+                Security e migrations com Flyway.
               </p>
             </div>
             <a
-              href="https://github.com/AlisonNunesAraujo/cadastro-de-produto"
+              href="https://github.com/AlisonNunesAraujo/E-Commerce-Api"
               target="_blank"
             >
               Acessar
@@ -301,6 +303,13 @@ export default function App() {
               alt="Kotlin"
             />
             <p>Kotlin</p>
+          </div>
+          <div className="skill">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg"
+              alt="Flutter"
+            />
+            <p>Flutter</p>
           </div>
          
 
