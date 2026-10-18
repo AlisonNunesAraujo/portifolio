@@ -266,6 +266,27 @@ header a:hover {
   color: #cbd5e1;
 }
 
+.experienciaLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.experienciaLinks a {
+  background: #3b82f6;
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 0.4rem 1rem;
+  border-radius: 0.5rem;
+  transition: background 0.3s ease;
+}
+
+.experienciaLinks a:hover {
+  background: #2563eb;
+}
+
 .habilidadesGrid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));

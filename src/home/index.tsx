@@ -1,5 +1,17 @@
 import "./styles.css";
 
+function tempoNoEmprego(anoInicio: number, mesInicio: number) {
+  const hoje = new Date();
+  const total =
+    (hoje.getFullYear() - anoInicio) * 12 + (hoje.getMonth() - mesInicio);
+  const anos = Math.floor(total / 12);
+  const meses = total % 12;
+  const partes = [];
+  if (anos > 0) partes.push(`${anos} ${anos === 1 ? "ano" : "anos"}`);
+  if (meses > 0) partes.push(`${meses} ${meses === 1 ? "mês" : "meses"}`);
+  return partes.length ? partes.join(" e ") : "menos de 1 mês";
+}
+
 export default function App() {
   return (
     <div>
@@ -15,10 +27,13 @@ export default function App() {
 
           <div className="textDesc">
             <p>
-              Desenvolvedor com experiência em React, React Native e Node.js
-              (NestJS/Express), focado na criação de aplicações mobile e backend
-              performáticas e escaláveis. Também possuo conhecimento em
-              Swift, Kotlin e Java/Spring Boot.
+              Desenvolvedor mobile com atuação em aplicativos publicados na App
+              Store e na Google Play, principalmente com React Native.
+              Também desenvolvo nativo para iOS com Swift e
+              SwiftUI e para Android com Kotlin, além de apps multiplataforma
+              com Flutter. No backend, crio APIs REST com Node.js
+              (NestJS/Express) e Java com Spring Boot, usando PostgreSQL e
+              AWS.
             </p>
           </div>
         </div>
@@ -34,12 +49,30 @@ export default function App() {
               <span className="experienciaAtual">Atual</span>
             </div>
             <span className="experienciaEmpresa">Busca Busca</span>
-            <span className="experienciaPeriodo">2025 — Atual</span>
+            <span className="experienciaPeriodo">
+              Setembro de 2025 — Atual · {tempoNoEmprego(2025, 8)}
+            </span>
             <p>
               Atuação em todo o aplicativo com React Native, incluindo
               autenticação, carrinho, checkout, gestão de pedidos e
               cancelamentos.
             </p>
+            <div className="experienciaLinks">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.busca.busca"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Android
+              </a>
+              <a
+                href="https://apps.apple.com/br/app/busca-busca/id6758051221"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                iOS
+              </a>
+            </div>
           </div>
 
           <div className="experienciaItem">
