@@ -32,8 +32,7 @@ export default function App() {
               Também desenvolvo nativo para iOS com Swift e
               SwiftUI e para Android com Kotlin, além de apps multiplataforma
               com Flutter. No backend, crio APIs REST com Node.js
-              (NestJS/Express) e Java com Spring Boot, usando PostgreSQL e
-              AWS.
+              (NestJS/Express) e Java com Spring Boot.
             </p>
           </div>
         </div>
