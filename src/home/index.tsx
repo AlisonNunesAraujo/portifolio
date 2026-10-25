@@ -1,17 +1,5 @@
 import "./styles.css";
 
-function tempoNoEmprego(anoInicio: number, mesInicio: number) {
-  const hoje = new Date();
-  const total =
-    (hoje.getFullYear() - anoInicio) * 12 + (hoje.getMonth() - mesInicio);
-  const anos = Math.floor(total / 12);
-  const meses = total % 12;
-  const partes = [];
-  if (anos > 0) partes.push(`${anos} ${anos === 1 ? "ano" : "anos"}`);
-  if (meses > 0) partes.push(`${meses} ${meses === 1 ? "mês" : "meses"}`);
-  return partes.length ? partes.join(" e ") : "menos de 1 mês";
-}
-
 export default function App() {
   return (
     <div>
@@ -45,11 +33,11 @@ export default function App() {
           <div className="experienciaItem">
             <div className="experienciaHeader">
               <h3>Desenvolvedor Mobile — React Native</h3>
-              <span className="experienciaAtual">Atual</span>
+              
             </div>
             <span className="experienciaEmpresa">Busca Busca</span>
             <span className="experienciaPeriodo">
-              Setembro de 2025 — Atual · {tempoNoEmprego(2025, 8)}
+              Setembro de 2025 — 1 ano e 2 meses
             </span>
             <p>
               Atuação em todo o aplicativo com React Native, incluindo
@@ -79,7 +67,7 @@ export default function App() {
               <h3>Desenvolvedor Freelance</h3>
             </div>
     
-            <span className="experienciaPeriodo">2025 · 6 meses</span>
+            <span className="experienciaPeriodo">2024 a 2025 · 1 ano e 5 meses</span>
             <p>
               Desenvolvimento de um aplicativo de relacionamento para
               cliente, do levantamento de requisitos à entrega das
