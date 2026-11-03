@@ -242,7 +242,7 @@ export default function App() {
           </div>
           <div className="skill">
             <img
-             src="https://cdn.simpleicons.org/amazonaws/232F3E"
+              src="https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
               alt="AWS"
             />
             <p>AWS</p>
