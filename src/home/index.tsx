@@ -40,9 +40,10 @@ export default function App() {
               Setembro de 2025 — 1 ano e 2 meses
             </span>
             <p>
-              Desenvolvi apps de e-commerce e logística em React Native,
-              incluindo um app de entregas com rastreamento e geolocalização
-              em tempo real.
+              Desenvolvo apps React Native de e-commerce, atuando em fluxos
+              como autenticação, carrinho, checkout, gestão e cancelamento de
+              pedidos. Também desenvolvi um app de logística de entregas com
+              rastreamento e geolocalização em tempo real.
             </p>
             <p>
               Automatizei builds e atualizações OTA com EAS, reduzindo a entrega
