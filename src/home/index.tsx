@@ -40,9 +40,14 @@ export default function App() {
               Setembro de 2025 — 1 ano e 2 meses
             </span>
             <p>
-              Atuação em todo o aplicativo com React Native, incluindo
-              autenticação, carrinho, checkout, gestão de pedidos e
-              cancelamentos.
+              Desenvolvi apps de e-commerce e logística em React Native,
+              incluindo um app de entregas com rastreamento e geolocalização
+              em tempo real.
+            </p>
+            <p>
+              Automatizei builds e atualizações OTA com EAS, reduzindo a entrega
+              de atualizações para menos de 10 minutos, e integrei recursos de
+              câmera e localização.
             </p>
             <div className="experienciaLinks">
               <a
